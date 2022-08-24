@@ -5,7 +5,7 @@ fs.readFile("./sugar/cache.json", (err,data)=>{
     const itemZero = realData.items[0]
     
     
-    for(i=1;i<=10;i++){
+    for(i=1;i<100;i++){
         realData.items[i] = itemZero
     }
     
